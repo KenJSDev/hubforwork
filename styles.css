@@ -28,6 +28,10 @@ header > h1 {
   justify-content: center;
 }
 
+#pagetitle {
+  width: 100%;
+}
+
 main {
   display: flex;
   width: 100%;

@@ -1,4 +1,4 @@
-/* General Variables */
+/* DC Variables */
 var dc1Selected = 0;
 var dc2Selected = 0;
 var dc3Selected = 0;
@@ -9,19 +9,19 @@ var dc7Selected = 0;
 var dc8Selected = 0;
 
 /* Home Variables */
-var homeAccess1 = "https://www.duckduckgo.com";
-var homeCase1 = "https://www.duckduckgo.com";
-var homeCase2 = "https://www.duckduckgo.com";
-var homeCase3 = "https://www.duckduckgo.com";
-var homeCase4 = "https://www.duckduckgo.com";
-var homeCase5 = "https://www.duckduckgo.com";
-var homeIssue1 = "https://www.duckduckgo.com";
-var homeIssue2 = "https://www.duckduckgo.com";
-var homeIssue3 = "https://www.duckduckgo.com";
-var homeResearch1 = "https://www.duckduckgo.com";
-var homeResearch2 = "https://www.duckduckgo.com";
-var homeResearch3 = "https://www.duckduckgo.com";
-var homeResearch4 = "https://www.duckduckgo.com";
+var access1URL = "https://www.duckduckgo.com";
+var case1URL = "https://www.duckduckgo.com";
+var case2URL = "https://www.duckduckgo.com";
+var case3URL = "https://www.duckduckgo.com";
+var case4URL = "https://www.duckduckgo.com";
+var case5URL = "https://www.duckduckgo.com";
+var issue1URL = "https://www.duckduckgo.com";
+var issue2URL = "https://www.duckduckgo.com";
+var issue3URL = "https://www.duckduckgo.com";
+var research1URL = "https://www.duckduckgo.com";
+var research2URL = "https://www.duckduckgo.com";
+var research3URL = "https://www.duckduckgo.com";
+var research4URL = "https://www.duckduckgo.com";
 
 /* DC1 Variables */
 var dc1Product1 = "https://www.duckduckgo.com";
@@ -145,6 +145,8 @@ function displayDC1() {
   document.getElementById("dc").style.display="block";
   document.getElementById("tools").style.display="none";
 
+  document.getElementById("pagetitle").innerHTML = "DC1";
+
   document.getElementById("buttonHome").disabled =false;
   document.getElementById("buttonDC1").disabled =true;
   document.getElementById("buttonDC2").disabled =false; 
@@ -172,6 +174,8 @@ function displayDC2() {
   document.getElementById("home").style.display="none";
   document.getElementById("dc").style.display="block";
   document.getElementById("tools").style.display="none";
+
+  document.getElementById("pagetitle").innerHTML = "DC2";
 
   document.getElementById("buttonHome").disabled=false;
   document.getElementById("buttonDC1").disabled=false;
@@ -202,6 +206,8 @@ function displayDC3() {
   document.getElementById("dc").style.display="block";
   document.getElementById("tools").style.display="none";
 
+  document.getElementById("pagetitle").innerHTML = "DC3";
+
   document.getElementById("buttonHome").disabled=false;
   document.getElementById("buttonDC1").disabled=false;
   document.getElementById("buttonDC2").disabled=false;
@@ -229,6 +235,8 @@ function displayDC4() {
   document.getElementById("home").style.display="none";
   document.getElementById("dc").style.display="block";
   document.getElementById("tools").style.display="none";
+
+  document.getElementById("pagetitle").innerHTML = "DC4";
 
   document.getElementById("buttonHome").disabled=false;
   document.getElementById("buttonDC1").disabled=false;
@@ -258,6 +266,8 @@ function displayDC5() {
   document.getElementById("dc").style.display="block";
   document.getElementById("tools").style.display="none";
 
+  document.getElementById("pagetitle").innerHTML = "DC5";
+
   document.getElementById("buttonHome").disabled=false;
   document.getElementById("buttonDC1").disabled=false;
   document.getElementById("buttonDC2").disabled=false;
@@ -285,6 +295,8 @@ function displayDC6() {
   document.getElementById("home").style.display="none";
   document.getElementById("dc").style.display="block";
   document.getElementById("tools").style.display="none";
+
+  document.getElementById("pagetitle").innerHTML = "DC6";
 
   document.getElementById("buttonHome").disabled=false;
   document.getElementById("buttonDC1").disabled=false;
@@ -315,6 +327,8 @@ function displayDC7() {
   document.getElementById("dc").style.display="block";
   document.getElementById("tools").style.display="none";
 
+  document.getElementById("pagetitle").innerHTML = "DC7";
+
   document.getElementById("buttonHome").disabled=false;
   document.getElementById("buttonDC1").disabled=false;
   document.getElementById("buttonDC2").disabled=false;
@@ -343,6 +357,8 @@ function displayDC8() {
   document.getElementById("dc").style.display="block";
   document.getElementById("tools").style.display="none";
 
+  document.getElementById("pagetitle").innerHTML = "DC8";
+
   document.getElementById("buttonHome").disabled=false;
   document.getElementById("buttonDC1").disabled=false;
   document.getElementById("buttonDC2").disabled=false;
@@ -362,6 +378,8 @@ function displayTools() {
   document.getElementById("dc").style.display="none";
   document.getElementById("tools").style.display="flex";
 
+  document.getElementById("pagetitle").innerHTML = "DC8";
+
   document.getElementById("buttonHome").disabled=false;
   document.getElementById("buttonDC1").disabled=false;
   document.getElementById("buttonDC2").disabled=false;
@@ -375,3 +393,279 @@ function displayTools() {
 
   console.log("displayTools");
 }
+
+/* Home Functions */
+function openAccess1() {
+  window.open(access1URL, "_blank");
+}
+
+function openCase1() {
+  window.open(case1URL, "_blank");
+}
+
+function openCase2() {
+  window.open(case2URL, "_blank");
+}
+
+function openCase3() {
+  window.open(case3URL, "_blank");
+}
+
+function openCase4() {
+  window.open(case4URL, "_blank");
+}
+
+function openCase5() {
+  window.open(case5URL, "_blank");
+}
+
+function openIssue1() {
+  window.open(issue1URL, "_blank");
+}
+
+function openIssue2() {
+  window.open(issue2URL, "_blank");
+}
+
+function openIssue3() {
+  window.open(issue3URL, "_blank");
+}
+
+function openResearch1() {
+  window.open(research1URL, "_blank");
+}
+
+function openResearch2() {
+  window.open(research2URL, "_blank");
+}
+
+function openResearch3() {
+  window.open(research3URL, "_blank");
+}
+
+function openResearch4() {
+  window.open(research4URL, "_blank");
+}
+
+/* DC Functions */
+
+/* Product Buttons Functions */
+
+function openProduct1() {
+  if (dc1Selected === 1) {
+    window.open(dc1Product1, "_blank");
+  };
+  if (dc2Selected === 1) {
+    window.open(dc2Product1, "_blank");
+  }
+  if (dc3Selected === 1) {
+    window.open(dc3Product1, "_blank");
+  };
+  if (dc4Selected === 1) {
+    window.open(dc4Product1, "_blank");
+  }
+  if (dc5Selected === 1) {
+    window.open(dc5Product1, "_blank");
+  };
+  if (dc6Selected === 1) {
+    window.open(dc6Product1, "_blank");
+  }
+  if (dc7Selected === 1) {
+    window.open(dc7Product1, "_blank");
+  };
+  if (dc8Selected === 1) {
+    window.open(dc8Product1, "_blank");
+  }
+}
+
+
+function openProduct2() {
+  if (dc1Selected === 1) {
+    window.open(dc1Product2, "_blank");
+  }
+  if (dc2Selected === 1) {
+    window.open(dc2Product2, "_blank");
+  }
+  if (dc3Selected === 1) {
+    window.open(dc3Product2, "_blank");
+  }
+  if (dc4Selected === 1) {
+    window.open(dc4Product2, "_blank");
+  }
+  if (dc5Selected === 1) {
+    window.open(dc5Product2, "_blank");
+  }
+  if (dc6Selected === 1) {
+    window.open(dc6Product2, "_blank");
+  }
+  if (dc7Selected === 1) {
+    window.open(dc7Product2, "_blank");
+  }
+  if (dc8Selected === 1) {
+    window.open(dc8Product2, "_blank");
+  }
+}
+
+function openProduct3() {
+  if (dc1Selected === 1) {
+    window.open(dc1Product3, "_blank");
+  }
+  if (dc2Selected === 1) {
+    window.open(dc2Product3, "_blank");
+  }
+  if (dc3Selected === 1) {
+    window.open(dc3Product3, "_blank");
+  }
+  if (dc4Selected === 1) {
+    window.open(dc4Product3, "_blank");
+  }
+  if (dc5Selected === 1) {
+    window.open(dc5Product3, "_blank");
+  }
+  if (dc6Selected === 1) {
+    window.open(dc6Product3, "_blank");
+  }
+  if (dc7Selected === 1) {
+    window.open(dc7Product3, "_blank");
+  }
+  if (dc8Selected === 1) {
+    window.open(dc8Product3, "_blank");
+  }
+}
+
+function openCommon1() {
+  if (dc1Selected === 1) {
+    window.open(dc1Common1, "_blank");
+  }
+  if (dc2Selected === 1) {
+    window.open(dc2Common1, "_blank");
+  }
+  if (dc3Selected === 1) {
+    window.open(dc3Common1, "_blank");
+  }
+  if (dc4Selected === 1) {
+    window.open(dc4Common1, "_blank");
+  }
+  if (dc5Selected === 1) {
+    window.open(dc5Common1, "_blank");
+  }
+  if (dc6Selected === 1) {
+    window.open(dc6Common1, "_blank");
+  }
+  if (dc7Selected === 1) {
+    window.open(dc7Common1, "_blank");
+  }
+  if (dc8Selected === 1) {
+    window.open(dc8Common1, "_blank");
+  }
+}
+
+function openCommon2() {
+  if (dc1Selected === 1) {
+    window.open(dc1Common2, "_blank");
+  }
+  if (dc2Selected === 1) {
+    window.open(dc2Common2, "_blank");
+  }
+  if (dc3Selected === 1) {
+    window.open(dc3Common2, "_blank");
+  }
+  if (dc4Selected === 1) {
+    window.open(dc4Common2, "_blank");
+  }
+  if (dc5Selected === 1) {
+    window.open(dc5Common2, "_blank");
+  }
+  if (dc6Selected === 1) {
+    window.open(dc6Common2, "_blank");
+  }
+  if (dc7Selected === 1) {
+    window.open(dc7Common2, "_blank");
+  }
+  if (dc8Selected === 1) {
+    window.open(dc8Common2, "_blank");
+  }
+}
+
+function openTool1() {
+  if (dc1Selected === 1) {
+    window.open(dc1Tool1, "_blank");
+  }
+  if (dc2Selected === 1) {
+    window.open(dc2Tool1, "_blank");
+  }
+  if (dc3Selected === 1) {
+    window.open(dc3Tool1, "_blank");
+  }
+  if (dc4Selected === 1) {
+    window.open(dc4Tool1, "_blank");
+  }
+  if (dc5Selected === 1) {
+    window.open(dc5Tool1, "_blank");
+  }
+  if (dc6Selected === 1) {
+    window.open(dc6Tool1, "_blank");
+  }
+  if (dc7Selected === 1) {
+    window.open(dc7Tool1, "_blank");
+  }
+  if (dc8Selected === 1) {
+    window.open(dc8Tool1, "_blank");
+  }
+}
+
+function openTool2() {
+  if (dc1Selected === 1) {
+    window.open(dc1Tool2, "_blank");
+  }
+  if (dc2Selected === 1) {
+    window.open(dc2Tool2, "_blank");
+  }
+  if (dc3Selected === 1) {
+    window.open(dc3Tool2, "_blank");
+  }
+  if (dc4Selected === 1) {
+    window.open(dc4Tool2, "_blank");
+  }
+  if (dc5Selected === 1) {
+    window.open(dc5Tool2, "_blank");
+  }
+  if (dc6Selected === 1) {
+    window.open(dc6Tool2, "_blank");
+  }
+  if (dc7Selected === 1) {
+    window.open(dc7Tool2, "_blank");
+  }
+  if (dc8Selected === 1) {
+    window.open(dc8Tool2, "_blank");
+  }
+}
+
+function openTool3() {
+  if (dc1Selected === 1) {
+    window.open(dc1Tool3, "_blank");
+  }
+  if (dc2Selected === 1) {
+    window.open(dc2Tool3, "_blank");
+  }
+  if (dc3Selected === 1) {
+    window.open(dc3Tool3, "_blank");
+  }
+  if (dc4Selected === 1) {
+    window.open(dc4Tool3, "_blank");
+  }
+  if (dc5Selected === 1) {
+    window.open(dc5Tool3, "_blank");
+  }
+  if (dc6Selected === 1) {
+    window.open(dc6Tool3, "_blank");
+  }
+  if (dc7Selected === 1) {
+    window.open(dc7Tool3, "_blank");
+  }
+  if (dc8Selected === 1) {
+    window.open(dc8Tool3, "_blank");
+  }
+}
+
+
