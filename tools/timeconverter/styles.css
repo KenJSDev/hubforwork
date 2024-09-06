@@ -1,0 +1,36 @@
+body {
+  background-color: #000;
+  color: #fff;
+}
+
+h1 {
+  text-align: center;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.gridObject {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#todayDate {
+  border: 2px solid #fff;
+  height: 50px;
+  width: 250px;
+  text-align: center;
+  margin-top: 10px;
+  vertical-align: center;
+}
+
+#displayDate {
+  border: 2px solid #fff;
+  height: 50px;
+  width: 250px;
+  text-align: center;
+  margin-top: 10px;
+  vertical-align: center;
+}

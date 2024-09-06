@@ -1,0 +1,42 @@
+<html>
+  
+  <head>
+	
+    <link rel='stylesheet' href='styles.css'>
+    <title>Unix Time Converter</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+	
+  </head>
+  
+  <body>
+	
+	<h1>64 Bit Unix Time Converter</h1>
+	
+	<div class='gridContainer'>
+	
+	  <div class='gridObject'>
+	
+	    <h2>Get Present Time Stamp</h2>
+		
+	      <button onClick='displayCurrentTime()'>Display</button>
+	      <div id='todayDate'>Current Date Display Area</div>
+		  
+		</div>
+		
+	  <div class='gridObject'>
+	  
+	    <h2>Convert Time Stamp</h2>
+	
+	      <input type='text' id='inputDate'>
+	      <button onClick='convert()'>Convert</button>
+	      <div id='displayDate'>Converted Date Display Area</div>
+	
+	  </div>
+	
+	</div>
+	
+	  <script src='scripts.js'></script>
+		
+  </body>
+  
+</html>
