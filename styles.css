@@ -41,6 +41,13 @@ a {
   text-decoration: none;
   color: rgb(255, 115, 0);
   font-size: 1.3em;
+  display: block;
+  margin: 10px auto;
+}
+
+a:hover {
+  background-color:rgb(6, 187, 0);
+  color: black;
 }
 
 nav {
@@ -68,7 +75,7 @@ nav {
 }
 
 .content > div {
-  width: 33%;
+  width: 25%;
   margin-top: 0;
   height: 75vh;
 }
